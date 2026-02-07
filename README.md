@@ -65,7 +65,7 @@ pip install -r requirements.txt
 | PC2 | 16.90% | 39.38% |
 | PC3 | 11.25% | 50.63% |
 | ... | ... | ... |
-| PC7 | 5.53% | 88.38% |
+| PC7 | 8.17% | 88.38% |
 
 ## Project Structure
 ```
