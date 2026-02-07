@@ -71,7 +71,7 @@ pip install -r requirements.txt
 ```
 .
 ├── PCA_Assignment.ipynb          # Main notebook with PCA implementation
-├── Africa_1997-2020_Jan08.csv    # Dataset
+├── /content/Africa_1997-2020_Jan08.csv    # Dataset
 ├── README.md                      # This file
 └── requirements.txt               # Python dependencies
 ```
@@ -108,6 +108,9 @@ pip install -r requirements.txt
 ## Visualizations Included
 - Original data scatter plot (first 2 features)
 - Reduced data scatter plot (PC1 vs PC2)
+  Refer to the image of both plots:
+  <img width="1076" height="532" alt="image" src="https://github.com/user-attachments/assets/837c8996-470f-45c4-9628-d5b1febfe4e5" />
+
 
 
 ## Author
