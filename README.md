@@ -11,7 +11,7 @@ Principal Component Analysis implementation from scratch using NumPy, Pandas, an
 ## Project Objective
 Implement PCA from scratch to:
 1. Reduce dimensionality (10D → 7D)
-2. Retain maximum variance (93.92%)
+2. Retain maximum variance (0.88 or 88%)
 3. Visualize transformation
 
 ## Installation
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 | PC2 | 16.90% | 39.38% |
 | PC3 | 11.25% | 50.63% |
 | ... | ... | ... |
-| PC8 | 5.53% | 93.92% |
+| PC7 | 5.53% | 88.38% |
 
 ## Project Structure
 ```
@@ -97,7 +97,7 @@ pip install -r requirements.txt
 
 6. **Component Selection**
    - Dynamic selection based on 85% variance threshold
-   - Selected 7 components (93.92% variance)
+   - Selected 7 components (88.38% variance)
 
 7. **Projection**
    - Transform data: `reduced_data = np.dot(standardized_data, eigenvectors)`
